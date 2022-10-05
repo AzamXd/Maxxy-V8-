@@ -6,7 +6,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
  let tag = `@${m.sender.split('@')[0]}`
  let ftroli = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { itemCount: 9999999999, status: 1, surface: 1, message: `${command} ${type}`, orderTitle: wm, sellerJid: '0@s.whatsapp.net' } } }
-  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Maxxy-Md⸙;;;\nFN:Maxxy-Md⸙\nORG:Maxxy-Md⸙\nTITLE:\nitem1.TEL;waid=6285380166282:+62 853-8016-6282\nitem1.X-ABLabel:𝙆𝘼𝙃𝙁𝙄-𝙓𝘿⸙\nX-WA-BIZ-DESCRIPTION:${htjava} Tᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ sᴀᴠᴇ ᴋᴏɴᴛᴀᴋ!!\nX-WA-BIZ-NAME:𝙆𝘼𝙃𝙁𝙄-𝙓𝘿⸙\nEND:VCARD`
+  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Shinee-Md⸙;;;\nFN:Shinee-Md⸙\nORG:Shinee-Md⸙\nTITLE:\nitem1.TEL;waid=6281389368689:+62 813-8936-8689\nitem1.X-ABLabel:Shinee-𝙓𝘿⸙\nX-WA-BIZ-DESCRIPTION:${htjava} Tᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ sᴀᴠᴇ ᴋᴏɴᴛᴀᴋ!!\nX-WA-BIZ-NAME:Shinee-𝙓𝘿⸙\nEND:VCARD`
 //------- NOMOR
  const pp = fs.readFileSync('./media/own.jpg')
   let nowner1 = `${nomorown1.split`@`[0]}@s.whatsapp.net`
@@ -22,27 +22,27 @@ let teksnomor = (
 )
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown1 + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1])
-let teksbio = `┆⫹⫺ 💌 Nama : 𝙈𝙖𝙭𝙭𝙮-𝙓𝘿
+let teksbio = `┆⫹⫺ 💌 Nama : Shinee-𝙓𝘿
 ┆⫹⫺ ✉️ Nama RL : HAMBA ALLAH
 ┆⫹⫺ ♂️ Gender : Pria
 ┆⫹⫺ 🕋 Agama : Islam
-┆⫹⫺ ⏰ Tanggal lahir : 16 - 10 - 2001
-┆⫹⫺ 🎨 Umur : 15
-┆⫹⫺ 🧮 Kelas : IX
+┆⫹⫺ ⏰ Tanggal lahir : 19 - 09 - 2006
+┆⫹⫺ 🎨 Umur : 16
+┆⫹⫺ 🧮 Kelas : XI
 ┆⫹⫺ 🧩 Hobby : 𝙼𝚘𝚍𝚒𝚏𝚒𝚔𝚊𝚜𝚒 𝚙𝚎𝚛𝚊𝚗𝚐𝚔𝚊𝚝 𝚕𝚞𝚗𝚊𝚔
 ┆⫹⫺ 💬 Sifat : ASIK,BAIK,RAMAH
 ┆⫹⫺ 🗺️ Tinggal : Indonesia, Aceh Timur 
 └––––––––––––·•
 `
 let ppown2 = await conn.profilePictureUrl(nomorown2 + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
-let teksbio2 = `┆⫹⫺ 💌 Nama : 𝙆𝘼𝙃𝙁𝙄-𝙓𝘿
+let teksbio2 = `┆⫹⫺ 💌 Nama : Shinee-𝙓𝘿
 ┆⫹⫺ ✉️ Nama RL : HAMBA ALLAH
 ┆⫹⫺ ♂️ Gender : Pria
 ┆⫹⫺ 🕋 Agama : Islam
-┆⫹⫺ ⏰ Tanggal lahir : 07 - 05 - 2000
-┆⫹⫺ 🎨 Umur : 15
-┆⫹⫺ 🧮 Kelas : IX
-┆⫹⫺ 🧩 Hobby : Game Mobile legend 
+┆⫹⫺ ⏰ Tanggal lahir : 19 - 09 - 2006
+┆⫹⫺ 🎨 Umur : 16
+┆⫹⫺ 🧮 Kelas : XI
+┆⫹⫺ 🧩 Hobby : Game APEX 
 ┆⫹⫺ 💬 Sifat : ASIK,BAIK,RAMAH
 ┆⫹⫺ 🗺️ Tinggal : Indonesia, Aceh Timur 
 └––––––––––––·•
@@ -63,7 +63,7 @@ title: `⫹⫺ Oᴛʜᴇʀ ⫹⫺`,
 rows: [
 {title: "⸙ Kontak", rowId: ".owner kontak"},
 {title: "⸙ Nomor", rowId: ".owner nomor"},
-{title: "⸙ Biodata 𝙆𝘼𝙃𝙁𝙄-𝙓𝘿", rowId: ".owner bio"},
+{title: "⸙ Biodata Shinee-𝙓𝘿", rowId: ".owner bio"},
 {title: "⸙ Biodata Maxxy-Md", rowId: ".owner bio2"},
 {title: "⸙ Script", rowId: ".sc"},
 ]}, {
